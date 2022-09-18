@@ -8,6 +8,15 @@ public class MeansOfTransport {
         this.wheelsCount = wheelsCount;
     }
 
+  public static void transportService(){
+      Bicycle.updateTyre();
+      Car.updateTyre();
+      Car.checkEngine();
+      Truck.updateTyre();
+      Truck.checkEngine();
+      Truck.checkTrailer();
+
+  }
     public String getModelName() {
         return modelName;
     }

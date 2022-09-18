@@ -4,15 +4,15 @@ public class Truck extends MeansOfTransport {
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
+    public static void updateTyre() {
+        System.out.println("Меняем покрышку грузовика");
     }
 
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+    public static void checkEngine() {
+        System.out.println("Проверяем двигатель грузовика");
     }
 
-    public void checkTrailer() {
+    public static void checkTrailer() {
         System.out.println("Проверяем прицеп");
     }
 }

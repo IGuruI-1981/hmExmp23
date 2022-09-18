@@ -4,11 +4,11 @@ public class Car extends MeansOfTransport {
         super(modelName, wheelsCount);
     }
 
-    public void updateTyre() {
-        System.out.println("Меняем покрышку");
+    public static void updateTyre() {
+        System.out.println("Меняем покрышку автомобиля");
     }
 
-    public void checkEngine() {
-        System.out.println("Проверяем двигатель");
+     public static void checkEngine() {
+        System.out.println("Проверяем двигатель автомобиля");
     }
 }
