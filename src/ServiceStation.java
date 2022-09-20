@@ -1,5 +1,5 @@
 public class ServiceStation {
-    public void check(MeansOfTransport meansOfTransport) {
+   public void service(MeansOfTransport meansOfTransport) {
        meansOfTransport.transportService();
-    }
+   }
 }

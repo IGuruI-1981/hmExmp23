@@ -1,4 +1,4 @@
-public class MeansOfTransport {
+public abstract class MeansOfTransport {
 
     private String modelName;
     private int wheelsCount;
@@ -8,15 +8,10 @@ public class MeansOfTransport {
         this.wheelsCount = wheelsCount;
     }
 
-  public static void transportService(){
-      Bicycle.updateTyre();
-      Car.updateTyre();
-      Car.checkEngine();
-      Truck.updateTyre();
-      Truck.checkEngine();
-      Truck.checkTrailer();
 
-  }
+     public abstract void transportService();
+
+
     public String getModelName() {
         return modelName;
     }
@@ -24,4 +19,5 @@ public class MeansOfTransport {
     public int getWheelsCount() {
         return wheelsCount;
     }
-}
+
+   }
